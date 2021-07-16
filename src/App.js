@@ -49,6 +49,7 @@ class App extends Component {
                          nameOfAnimation={nameOfAnimation}/>
                 </div>
                 <button onClick={this.handleClick}>Start</button>
+                <button>Send</button>
             </div>
         );
     }
